@@ -1,4 +1,4 @@
-import React from "react";
+import "./stage.css";
 
 const Stage = ({ children }) => {
   return <div className="stage">{children}</div>;

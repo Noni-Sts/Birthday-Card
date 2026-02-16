@@ -1,7 +1,9 @@
-import React from "react";
-
-const Stage = () => {
-  return <div>Stage</div>;
+const SplatScreen = ({ onComplete }) => {
+  return (
+    <div onClick={onComplete}>
+      <p>Splat screen (click to continue)</p>
+    </div>
+  );
 };
 
-export default Stage;
+export default SplatScreen;

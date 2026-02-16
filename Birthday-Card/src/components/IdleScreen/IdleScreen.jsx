@@ -1,7 +1,12 @@
-import React from "react";
+import "./idle.css";
 
-const Stage = () => {
-  return <div>Stage</div>;
+const IdleScreen = ({ onStart }) => {
+  return (
+    <div className="idle" onClick={onStart}>
+      <p>Connection established.</p>
+      <p>Tap to begin.</p>
+    </div>
+  );
 };
 
-export default Stage;
+export default IdleScreen;

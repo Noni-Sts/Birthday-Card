@@ -1,7 +1,5 @@
-import React from "react";
-
-const Stage = () => {
-  return <div>Stage</div>;
+const RevealScreen = () => {
+  return <p>Reveal screen</p>;
 };
 
-export default Stage;
+export default RevealScreen;
