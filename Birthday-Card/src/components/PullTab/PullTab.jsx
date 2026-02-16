@@ -1,7 +1,5 @@
-import React from "react";
-
-const Stage = () => {
-  return <div>Stage</div>;
+const PullTab = () => {
+  return <div>PULL FOR LOOT</div>;
 };
 
-export default Stage;
+export default PullTab;

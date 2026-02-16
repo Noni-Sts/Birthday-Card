@@ -1,7 +1,5 @@
-import React from "react";
-
-const Stage = () => {
-  return <div>Stage</div>;
+const ScratchBar = () => {
+  return <div>Scratch to reveal</div>;
 };
 
-export default Stage;
+export default ScratchBar;

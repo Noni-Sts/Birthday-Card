@@ -1,0 +1,34 @@
+.splat-stage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.dot {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #8cff00;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.dot:hover {
+  transform: scale(1.2);
+}
+
+.dot.splatted {
+  background: #ff4fa3;
+  transform: scale(2);
+  opacity: 0.9;
+}
+
+.splat-text {
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  opacity: 0.85;
+}
