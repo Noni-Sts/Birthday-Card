@@ -1,5 +1,14 @@
+import "./poster.css";
+
 const Poster = () => {
-  return <h1>HAPPY BIRTHDAY DEV_NAME</h1>;
+  return (
+    <div className="poster">
+      <div className="poster-inner">
+        <h2 className="birthday">HAPPY BIRTHDAY</h2>
+        <h1 className="name">JOAO</h1>
+      </div>
+    </div>
+  );
 };
 
 export default Poster;

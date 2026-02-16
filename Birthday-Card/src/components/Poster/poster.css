@@ -1,0 +1,22 @@
+.poster {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.poster-inner {
+  display: inline-block;
+  transform: rotate(-12deg);
+}
+
+.birthday {
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.name {
+  font-size: 4rem;
+  margin: 0;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.6);
+}
