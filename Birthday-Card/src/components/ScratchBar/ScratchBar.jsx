@@ -1,5 +1,21 @@
+import { useState } from "react";
+import "./scratch.css";
+
 const ScratchBar = () => {
-  return <div>Scratch to reveal</div>;
+  const [revealed, setRevealed] = useState(false);
+
+  return (
+    <div
+      className="scratch-wrapper"
+      onMouseEnter={() => setRevealed(true)}
+      onTouchStart={() => setRevealed(true)}
+    >
+      {!revealed && <div className="scratch-cover">SCRATCH TO REVEAL</div>}
+      {revealed && (
+        <p className="scratch-text">Some matches change everything.</p>
+      )}
+    </div>
+  );
 };
 
 export default ScratchBar;

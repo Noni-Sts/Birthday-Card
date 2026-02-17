@@ -1,0 +1,19 @@
+.scratch-wrapper {
+  position: relative;
+  margin: 2rem auto;
+  padding: 1.2rem 2rem;
+  max-width: 500px;
+  border-radius: 8px;
+  background: #2a2a2f;
+  cursor: pointer;
+}
+
+.scratch-cover {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  opacity: 0.9;
+}
+
+.scratch-text {
+  opacity: 0.9;
+}
