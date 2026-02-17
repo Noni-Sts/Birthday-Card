@@ -1,7 +1,8 @@
 .poster {
   width: 100%;
   margin-bottom: 3rem;
-  position: relative;
+  position: relative; /* REQUIRED */
+  z-index: 1;
 }
 
 .poster-inner {

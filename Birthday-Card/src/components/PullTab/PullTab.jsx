@@ -1,5 +1,7 @@
+import "./pulltab.css";
+
 const PullTab = () => {
-  return <div>PULL FOR LOOT</div>;
+  return <div className="pulltab">PULL FOR LOOT ↓</div>;
 };
 
 export default PullTab;
